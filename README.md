@@ -4,14 +4,14 @@ I want to improve my competitive coding skills and for that I am making this rep
 # Languages Used 
 Java
 
-# Questions including concepts 
-*Stack
-*LinkedList
-*Queue
-*Dynamic Programming (2D DP, 3D DP, Bitmasking DP)
-*Fenwick Tree
-*Segment Trees
-*MO's Algorithm
-*Binary Search + Greedy (Combined)
-*Graphs
-*Union Find Algorithm(Graphs)
+## Questions including concepts 
+* Stack
+* LinkedList
+* Queue
+* Dynamic Programming (2D DP, 3D DP, Bitmasking DP)
+* Fenwick Tree
+* Segment Trees
+* MO's Algorithm
+* Binary Search + Greedy (Combined)
+* Graphs
+* Union Find Algorithm(Graphs)
