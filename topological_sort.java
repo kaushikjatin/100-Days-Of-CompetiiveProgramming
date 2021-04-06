@@ -1,4 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/topological-sort/1#
+// An algorithm for getting the sequence in which we can perform the tasks so that all the dependecies of all tasks can be satisfied
+// Al taska can be performed if the graph donot contain a cycle...
+// we can find a sequence by BFS and By DFS both.
 class Solution 
 {
     static int index;

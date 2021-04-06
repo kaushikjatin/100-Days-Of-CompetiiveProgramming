@@ -1,3 +1,4 @@
+// this algo is used for finding all the stringly connected components in a Directed graph/
 import java.util.*;
 import java.io.*;
 import java.lang.*;
