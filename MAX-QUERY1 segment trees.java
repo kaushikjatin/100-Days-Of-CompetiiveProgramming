@@ -128,7 +128,7 @@ class Main
 	            i++;
 	        }
 	        else 
-	        {
+	        [
 	            final_ans[k]=arr2[j];
 	            j++;
 	        }

@@ -42,7 +42,7 @@ class Solution
     {
         ans=0;
         order=new ArrayList<>();
-        revorder=new ArrayList<>();
+        revorder=new ArrayList<>(); // this will be of no use...just used so that we can reuse the dfs() function...
         visited=new boolean[N];
         memset(false);
         for(int i=0;i<N;i++)
