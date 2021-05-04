@@ -29,7 +29,7 @@ void scan_and_memset()
     low.resize(n+1);  dis.resize(n+1);  visited.resize(n+1);
 }
 
-bool dfs(int node,int dis_time,int par)
+void dfs(int node,int dis_time,int par)
 {
     dis[node]=dis_time;
     int num_child=0;
@@ -40,18 +40,17 @@ bool dfs(int node,int dis_time,int par)
         if(!visited[child])
         {
             num_child++;
-            if(dfs(child,dis_time+1,node))
-                bridges.pb({node,child});
+            dfs(child,dis_time+1,node)
             low[node]=min(low[node],low[child]);
+            // art_pnt
+            if(low[child]>=dis[node])
+                art_pnt.pb(node);
+            // art_bridge 
+            if(low[child]>dis[node])
+                bridges.pb({node,child});
         }
         else if(child!=par)//backedge
            low[node]=min(low[node],dis[child]);
-    }
-    if(low[node]>=dis[node] && par!=-1)
-    {
-       if(num_child!=0)
-            art_pnt.pb(node);
-        return true;
     }
     if(num_child>=2 && par==-1) // this case is when the root is itselt articulation point
         art_pnt.pb(node);
