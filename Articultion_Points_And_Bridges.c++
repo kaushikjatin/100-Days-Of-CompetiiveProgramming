@@ -40,7 +40,7 @@ void dfs(int node,int dis_time,int par)
         if(!visited[child])
         {
             num_child++;
-            dfs(child,dis_time+1,node)
+            dfs(child,dis_time+1,node);
             low[node]=min(low[node],low[child]);
             // art_pnt
             if(low[child]>=dis[node])
@@ -54,7 +54,6 @@ void dfs(int node,int dis_time,int par)
     }
     if(num_child>=2 && par==-1) // this case is when the root is itselt articulation point
         art_pnt.pb(node);
-    return false;
 }
 
 int32_t main()
