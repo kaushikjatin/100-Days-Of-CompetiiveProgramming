@@ -4,3 +4,6 @@ PROBLEMS TO BE REVISED BEFORE INTERVIEW
         Infix -> Postfix (Reading algo is must,,,coding is not must but,, just see how we have made the function of handling the operator);
         Infix -> Prefix (Read the algo from gfg carefully);
         Evaluvation of the postfix expression
+        Swap atmax k zeroes to make longest consecutive 1's -> Donot check gfg solution for that,,,watch this video https://www.youtube.com/watch?v=pwaVTOazeb4
+                        Also do see how do we handle the 2 pointer problems.
+        
