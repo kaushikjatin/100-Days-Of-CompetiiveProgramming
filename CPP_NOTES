@@ -1,9 +1,46 @@
 PROBLEMS TO BE REVISED BEFORE INTERVIEW
-        MERGE 2 SORTED ARRRAYS.
-        Median Of 2 Sorted Arrays.
-        Infix -> Postfix (Reading algo is must,,,coding is not must but,, just see how we have made the function of handling the operator);
-        Infix -> Prefix (Read the algo from gfg carefully);
-        Evaluvation of the postfix expression
-        Swap atmax k zeroes to make longest consecutive 1's -> Donot check gfg solution for that,,,watch this video https://www.youtube.com/watch?v=pwaVTOazeb4
-                        Also do see how do we handle the 2 pointer problems.
-        
+                        MERGE 2 SORTED ARRRAYS.
+                        Median Of 2 Sorted Arrays.
+                        Infix -> Postfix (Reading algo is must,,,coding is not must but,, just see how we have made the function of handling the operator);
+                        Infix -> Prefix (Read the algo from gfg carefully);
+                        Evaluvation of the postfix expression
+                        Swap atmax k zeroes to make longest consecutive 1's -> Donot check gfg solution for that,,,watch this video https://www.youtube.com/watch?v=pwaVTOazeb4
+                                        Also do see how do we handle the 2 pointer problems.
+                        Majority Element occur > floor(N/3) times -> Bayers Moore algorithm. Time O(N)  Space O(1).
+                        Container with most water(diff from rain-water problem) -> 2 pointer approach is needed for this.
+                        Longest Valid paranthesis -> You always this edge case -> "((()))())" in the dp solution.
+
+        Maximum-rectangle in Histogram (Analysis)-> Remember we used to push to stack if the element on top is smaller than the current element. OR pop from stack until  we find an element which is smaller than current element. Then you should notice carefully that. This approach will help  us in getting the index of 1st element which is smaller than the current element and is in the left side of the element. and also the  index of 1st element which is smaller than the current element and is 
+        in the right side of the element.
+        For any element the 1st smallest element on left side is -> The element just below that element in the stack.
+        For any element the 1st smallest element on right side is -> The element due to which the current element will be popped    
+        from the stack.
+
+
+                        Maximum area reactangle with all 1's -> Based on the histogram max-area problem.
+
+                        Buy-and-sell-stock-3 -> Use dp[] array ,,left[i] and right[i]...were left[i] tell us that what can be 
+                                                the max profit if we decide to sell stocks upto this index. And right[i] will tell
+                                                us the max. profit which we can expect if we buy the stock at this or after this day.
+
+
+
+
+
+
+
+
+
+
+        Microservies  (python is sued for that as we need to give complete code for python....)
+        server architecture
+        4th -> serverless architecture
+
+        Databases to use -> RDBMS and NosQL 
+        2nd -> Plugins (adding plugins to the existing system)
+        3rd -> web dev and traditional methods
+
+
+    11 -> 11: 25 (break)
+    1-> 2 (;lunch)
+    2 -> 3
