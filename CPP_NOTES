@@ -31,6 +31,7 @@ PROBLEMS TO BE REVISED BEFORE INTERVIEW
 
 
 
+        Learn about the chaning of the expressions in the python
 
         Microservies  (python is sued for that as we need to give complete code for python....)
         server architecture
@@ -40,7 +41,22 @@ PROBLEMS TO BE REVISED BEFORE INTERVIEW
         2nd -> Plugins (adding plugins to the existing system)
         3rd -> web dev and traditional methods
 
+        Learn about the function in a fuction in the python...defining function inside a finction.
+        closure,,inner function in python.
+
 
     11 -> 11: 25 (break)
     1-> 2 (;lunch)
     2 -> 3
+
+    GRPC >>> FATER THAN NORAML API'S and microservices. (GRPC is a communication device)
+    API's come in the application layer....but the GRPC only link from physical to physical layer. So it is faster to track real time location. It it=s not communicating on the Application layer only on the TCP/IP layer.
+    (Browser only support API's as it has application layer...)......thats why we can only book UBER in Apps and not on the websites.
+    Uber use Apache Kafka-> it is a message holding service....which hold message and send it to whomever it needs.
+
+
+
+
+
+
+    
